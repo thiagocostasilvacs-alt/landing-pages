@@ -18,7 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: #fff;
+    background: #F5F7FA;
 }
 
 .header a {
@@ -30,17 +30,20 @@ body {
 
 /*HERO*/
 .hero {
-    height: 70vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: #e9eef5;
-    text-align: center;
+    justify-content: space-around;
+    padding: 60px 40px;
+    background: #FEFEFE;
 }
 
 .hero h1 {
     font-size: 36px;
     margin-bottom: 15px;
+}
+
+.hero-text {
+  max-width: 400px;
 }
 
 .hero p {
@@ -56,15 +59,29 @@ body {
     cursor: pointer;
 }
 
-.image {
+.hero-img {
     width: 500px;
-    height: 500px;
 }
 
 /*SOBRE*/
 .sobre {
-    padding: 60px 20px;
+    padding: 60px 20px 0px;
     text-align: center;
+}
+
+.sobre-textimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 0px ;
+}
+
+.sobre-text {
+    padding: 0px 40px;
+}
+
+.sobre-img img {
+    width: 350px;
 }
 
 /*Serviços*/
